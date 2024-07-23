@@ -1,2 +1,5 @@
 # Zomato-Sql-Project-
-This contains SQL queries designed to analyze customer behavior, sales patterns, and product popularity on the Zomato platform
+
+Zomato Data Analysis Project
+
+This project contains a series of SQL queries aimed at providing comprehensive insights into customer behavior, sales patterns, and product popularity on the Zomato platform. The analyses cover various aspects such as the total amount spent by each customer, the number of distinct days customers have made purchases, and identifying the first product purchased by each customer. Additionally, the project includes queries to determine the most purchased item on the menu, the most popular item for each customer, and the first purchase after becoming a Zomato gold member. It also tracks the last purchase before becoming a member and calculates the total orders and amount spent before membership. Furthermore, the project includes a points system where points are awarded based on specific product rules, and it calculates the total points collected by each customer and product. Finally, the project ranks all transactions and differentiates between transactions made by gold members and non-members. These analyses provide valuable insights that can help in understanding customer preferences and improving the overall service on the Zomato platform.
