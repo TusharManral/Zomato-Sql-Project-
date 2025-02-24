@@ -2,4 +2,14 @@
 
 Zomato Data Analysis Project
 
-This project contains a series of SQL queries aimed at providing comprehensive insights into customer behavior, sales patterns, and product popularity on the Zomato platform. The analyses cover various aspects such as the total amount spent by each customer, the number of distinct days customers have made purchases, and identifying the first product purchased by each customer. Additionally, the project includes queries to determine the most purchased item on the menu, the most popular item for each customer, and the first purchase after becoming a Zomato gold member. It also tracks the last purchase before becoming a member and calculates the total orders and amount spent before membership. Furthermore, the project includes a points system where points are awarded based on specific product rules, and it calculates the total points collected by each customer and product. Finally, the project ranks all transactions and differentiates between transactions made by gold members and non-members. These analyses provide valuable insights that can help in understanding customer preferences and improving the overall service on the Zomato platform.
+Overview This repository contains a SQL database simulating a restaurant ordering system similar to Zomato. The database includes several tables that track user signups, sales transactions, and product details, allowing for various analyses of user behavior and spending patterns.
+
+Database Structure The Zomato database consists of the following tables:
+
+goldusers_signup: Records users who have signed up for a Gold membership along with their signup dates. users: Contains all users and their corresponding signup dates. sales: Tracks sales transactions, including user IDs, product IDs, and the dates of purchases. product: Stores product details, including product IDs, names, and prices. Features The dataset allows for the following types of analyses:
+
+Total amount spent by each customer. Number of days each customer visited the platform. Identification of the first product purchased by each customer. Analysis of the most purchased items across users. Calculation of loyalty points earned based on purchases. Queries Included The SQL script contains various queries to extract meaningful insights, such as:
+
+Total spending per user. Visit frequency of customers. First purchases and popular items per user. Transactions prior to and after membership signups. Usage To utilize the dataset, simply clone this repository and run the SQL script in your preferred SQL environment. You can modify the queries to suit your analytical needs.
+
+License This dataset is intended for educational and research purposes. Please feel free to reach out for any inquiries or suggestions for improvements.
